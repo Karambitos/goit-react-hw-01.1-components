@@ -1,0 +1,34 @@
+.stats {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    background-color: #f5f6f8;
+    border-top: 1px solid #e8ecf1;
+}
+
+.statsItem{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.statsItem:not(:last-child){
+    border-right: 1px solid #e8ecf1;
+}
+
+.label {
+    color: gray;
+    text-transform: capitalize;
+}
+
+.quantity {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+

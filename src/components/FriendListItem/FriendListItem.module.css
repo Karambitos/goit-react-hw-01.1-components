@@ -1,0 +1,29 @@
+.item {
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.35);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.status {
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.isOnline {
+    background-color: green;
+}
+
+.avatar {
+    margin-right: 10px;
+    width: 48px;
+}
+

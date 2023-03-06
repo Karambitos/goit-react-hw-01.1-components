@@ -1,0 +1,32 @@
+.profile{
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.description{ 
+    background-color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: #e8ecf1;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.tag,
+.location {
+    color: gray;
+}
